@@ -130,7 +130,7 @@ class _OnlineStatusWidgetState extends State<OnlineStatusWidget> {
               child: _buildConnStatusMsg(),
             ),
             // stop
-            if (!isIncomingOnly) startServiceWidget(),
+           
             // ready && public
             // No need to show the guide if is custom client.
             if (!isIncomingOnly) setupServerWidget(),
